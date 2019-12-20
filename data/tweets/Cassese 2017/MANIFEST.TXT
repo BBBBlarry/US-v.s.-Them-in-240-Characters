@@ -1,0 +1,5 @@
+Codebook final.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document) 41552 bytes.
+do file.do (application/x-stata-syntax) 50359 bytes.
+Issue Attack Study Data.dta (application/x-stata) 249329 bytes.
+Online Appendix FV.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document) 70270 bytes.
+Trait Attack Study Data.dta (application/x-stata-13) 277192 bytes.

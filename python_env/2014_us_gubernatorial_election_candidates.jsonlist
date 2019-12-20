@@ -1,0 +1,142 @@
+{"name": "Robert Bentley", "state": "Alabama", "party": "R", "incumbency": true, "elected": true}
+{"name": "Parker Griffith", "state": "Alabama", "party": "D", "incumbency": false, "elected": false}
+{"name": "J. R. Myers", "state": "Alaska", "party": "Constitution", "incumbency": false, "elected": false}
+{"name": "Bill Walker", "state": "Alaska", "party": "I", "incumbency": false, "elected": true}
+{"name": "Carolyn Clift", "state": "Alaska", "party": "L", "incumbency": false, "elected": false}
+{"name": "Sean Parnell", "state": "Alaska", "party": "R", "incumbency": true, "elected": false}
+{"name": "Doug Ducey", "state": "Arizona", "party": "R", "incumbency": false, "elected": true}
+{"name": "John Mealer", "state": "Arizona", "party": "Americans Elect", "incumbency": false, "elected": false}
+{"name": "Barry Hess", "state": "Arizona", "party": "L", "incumbency": false, "elected": false}
+{"name": "Fred DuVal", "state": "Arizona", "party": "D", "incumbency": false, "elected": false}
+{"name": "Asa Hutchinson", "state": "Arkansas", "party": "R", "incumbency": false, "elected": true}
+{"name": "Frank Gilbert", "state": "Arkansas", "party": "L", "incumbency": false, "elected": false}
+{"name": "Mike Ross", "state": "Arkansas", "party": "D", "incumbency": false, "elected": false}
+{"name": "Josh Drake", "state": "Arkansas", "party": "Green", "incumbency": false, "elected": false}
+{"name": "Jerry Brown", "state": "California", "party": "D", "incumbency": true, "elected": true}
+{"name": "Neel Kashkari", "state": "California", "party": "R", "incumbency": false, "elected": false}
+{"name": "Harry Hempy", "state": "Colorado", "party": "Green", "incumbency": false, "elected": false}
+{"name": "John Hickenlooper", "state": "Colorado", "party": "D", "incumbency": true, "elected": true}
+{"name": "Matthew Hess", "state": "Colorado", "party": "L", "incumbency": false, "elected": false}
+{"name": "Mike Dunafon", "state": "Colorado", "party": "I", "incumbency": false, "elected": false}
+{"name": "Bob Beauprez", "state": "Colorado", "party": "R", "incumbency": false, "elected": false}
+{"name": "Paul Fiorino", "state": "Colorado", "party": "I", "incumbency": false, "elected": false}
+{"name": "Jim Rundberg", "state": "Colorado", "party": "I", "incumbency": false, "elected": false}
+{"name": "Joe Visconti", "state": "Connecticut", "party": "I", "incumbency": false, "elected": false}
+{"name": "Tom Foley", "state": "Connecticut", "party": "R", "incumbency": false, "elected": false}
+{"name": "Lee Whitnum", "state": "Connecticut", "party": "I", "incumbency": false, "elected": false}
+{"name": "Dan Malloy", "state": "Connecticut", "party": "D", "incumbency": true, "elected": true}
+{"name": "Glenn Burkett", "state": "Florida", "party": "No Party Affiliation", "incumbency": false, "elected": false}
+{"name": "Rick Scott", "state": "Florida", "party": "R", "incumbency": true, "elected": true}
+{"name": "Farid Khavari", "state": "Florida", "party": "No Party Affiliation", "incumbency": false, "elected": false}
+{"name": "Charlie Crist", "state": "Florida", "party": "D", "incumbency": false, "elected": false}
+{"name": "Joe Allen", "state": "Florida", "party": "No Party Affiliation", "incumbency": false, "elected": false}
+{"name": "Adrian Wyllie", "state": "Florida", "party": "L", "incumbency": false, "elected": false}
+{"name": "Andrew Hunt", "state": "Georgia", "party": "L", "incumbency": false, "elected": false}
+{"name": "Jason Carter", "state": "Georgia", "party": "D", "incumbency": false, "elected": false}
+{"name": "Nathan Deal", "state": "Georgia", "party": "R", "incumbency": true, "elected": true}
+{"name": "Duke Aiona", "state": "Hawaii", "party": "R", "incumbency": false, "elected": false}
+{"name": "Jeff Davis", "state": "Hawaii", "party": "L", "incumbency": false, "elected": false}
+{"name": "David Ige", "state": "Hawaii", "party": "D", "incumbency": false, "elected": true}
+{"name": "Mufi Hannemann", "state": "Hawaii", "party": "Hawaii Independent", "incumbency": false, "elected": false}
+{"name": "A.J. Balukoff", "state": "Idaho", "party": "D", "incumbency": false, "elected": false}
+{"name": "Pro-Life", "state": "Idaho", "party": "Marvin Richardson", "incumbency": false, "elected": false}
+{"name": "Butch Otter", "state": "Idaho", "party": "R", "incumbency": true, "elected": true}
+{"name": "", "state": "Idaho", "party": "I", "incumbency": false, "elected": false}
+{"name": "John Bujak", "state": "Idaho", "party": "L", "incumbency": false, "elected": false}
+{"name": "Jill Humble", "state": "Idaho", "party": "I", "incumbency": false, "elected": false}
+{"name": "Steve Pankey", "state": "Idaho", "party": "Constitution", "incumbency": false, "elected": false}
+{"name": "Bruce Rauner", "state": "Illinois", "party": "R", "incumbency": false, "elected": true}
+{"name": "Chad Grimm", "state": "Illinois", "party": "L", "incumbency": false, "elected": false}
+{"name": "Pat Quinn", "state": "Illinois", "party": "D", "incumbency": true, "elected": false}
+{"name": "David Rosenfeld", "state": "Iowa", "party": "Socialist Workers", "incumbency": false, "elected": false}
+{"name": "Jack Hatch", "state": "Iowa", "party": "D", "incumbency": false, "elected": false}
+{"name": "Terry Branstad", "state": "Iowa", "party": "R", "incumbency": true, "elected": true}
+{"name": "Lee Hieb", "state": "Iowa", "party": "L", "incumbency": false, "elected": false}
+{"name": "Paul Davis", "state": "Kansas", "party": "D", "incumbency": false, "elected": false}
+{"name": "Keen Umbehr", "state": "Kansas", "party": "L", "incumbency": false, "elected": false}
+{"name": "Sam Brownback", "state": "Kansas", "party": "R", "incumbency": true, "elected": true}
+{"name": "Eliot Cutler", "state": "Maine", "party": "Unenrolled", "incumbency": false, "elected": false}
+{"name": "Mike Michaud", "state": "Maine", "party": "D", "incumbency": false, "elected": false}
+{"name": "Paul LePage", "state": "Maine", "party": "R", "incumbency": true, "elected": true}
+{"name": "Larry Hogan", "state": "Maryland", "party": "R", "incumbency": false, "elected": true}
+{"name": "Shawn Quinn", "state": "Maryland", "party": "L", "incumbency": false, "elected": false}
+{"name": "Anthony Brown", "state": "Maryland", "party": "D", "incumbency": false, "elected": false}
+{"name": "Scott Lively", "state": "Massachusetts", "party": "I", "incumbency": false, "elected": false}
+{"name": "Jeff McCormick", "state": "Massachusetts", "party": "I", "incumbency": false, "elected": false}
+{"name": "Martha Coakley", "state": "Massachusetts", "party": "D", "incumbency": false, "elected": false}
+{"name": "Evan Falchuk", "state": "Massachusetts", "party": "United Independent", "incumbency": false, "elected": false}
+{"name": "Charlie Baker", "state": "Massachusetts", "party": "R", "incumbency": false, "elected": true}
+{"name": "Paul Homeniuk", "state": "Michigan", "party": "G", "incumbency": false, "elected": false}
+{"name": "Rick Snyder", "state": "Michigan", "party": "R", "incumbency": true, "elected": true}
+{"name": "Mark Schauer", "state": "Michigan", "party": "D", "incumbency": false, "elected": false}
+{"name": "Robin Sanders", "state": "Michigan", "party": "I", "incumbency": false, "elected": false}
+{"name": "Mary Buzuma", "state": "Michigan", "party": "L", "incumbency": false, "elected": false}
+{"name": "Jeff Johnson", "state": "Minnesota", "party": "R", "incumbency": false, "elected": false}
+{"name": "Chris Wright", "state": "Minnesota", "party": "Grass Roots", "incumbency": false, "elected": false}
+{"name": "Chris Holbrook", "state": "Minnesota", "party": "L", "incumbency": false, "elected": false}
+{"name": "Mark Dayton", "state": "Minnesota", "party": "DFL", "incumbency": true, "elected": true}
+{"name": "Hannah Nicollet", "state": "Minnesota", "party": "Independence", "incumbency": false, "elected": false}
+{"name": "Pete Ricketts", "state": "Nebraska", "party": "R", "incumbency": false, "elected": true}
+{"name": "Mark Elworth", "state": "Nebraska", "party": "L", "incumbency": false, "elected": false}
+{"name": "Chuck Hassebrook", "state": "Nebraska", "party": "D", "incumbency": false, "elected": false}
+{"name": "David VanDerBeek", "state": "Nevada", "party": "Independent American", "incumbency": false, "elected": false}
+{"name": "Robert Goodman", "state": "Nevada", "party": "D", "incumbency": false, "elected": false}
+{"name": "Brian Sandoval", "state": "Nevada", "party": "R", "incumbency": true, "elected": true}
+{"name": "Maggie Hassan", "state": "New Hampshire", "party": "D", "incumbency": true, "elected": true}
+{"name": "Walt Havenstein", "state": "New Hampshire", "party": "R", "incumbency": false, "elected": false}
+{"name": "Gary King", "state": "New Mexico", "party": "D", "incumbency": false, "elected": false}
+{"name": "Susana Martinez", "state": "New Mexico", "party": "R", "incumbency": true, "elected": true}
+{"name": "Rob Astorino", "state": "New York", "party": "R", "incumbency": false, "elected": false}
+{"name": "Andrew Cuomo", "state": "New York", "party": "D", "incumbency": true, "elected": true}
+{"name": "Michael McDermott", "state": "New York", "party": "L", "incumbency": false, "elected": false}
+{"name": "Howie Hawkins", "state": "New York", "party": "G", "incumbency": false, "elected": false}
+{"name": "Ed FitzGerald", "state": "Ohio", "party": "D", "incumbency": false, "elected": false}
+{"name": "John Kasich", "state": "Ohio", "party": "R", "incumbency": true, "elected": true}
+{"name": "Anita Rios", "state": "Ohio", "party": "G", "incumbency": false, "elected": false}
+{"name": "Richard Prawdzienski", "state": "Oklahoma", "party": "L, running as I", "incumbency": false, "elected": false}
+{"name": "Mary Fallin", "state": "Oklahoma", "party": "R", "incumbency": true, "elected": true}
+{"name": "Joe Dorman", "state": "Oklahoma", "party": "D", "incumbency": false, "elected": false}
+{"name": "Dennis Richardson", "state": "Oregon", "party": "R", "incumbency": false, "elected": false}
+{"name": "Paul Grad", "state": "Oregon", "party": "Libertarian", "incumbency": false, "elected": false}
+{"name": "John Kitzhaber", "state": "Oregon", "party": "D", "incumbency": true, "elected": true}
+{"name": "Aaron Auer", "state": "Oregon", "party": "Constitution", "incumbency": false, "elected": false}
+{"name": "Tom Wolf", "state": "Pennsylvania", "party": "D", "incumbency": false, "elected": true}
+{"name": "Tom Corbett", "state": "Pennsylvania", "party": "R", "incumbency": true, "elected": false}
+{"name": "Gina Raimondo", "state": "Rhode Island", "party": "D", "incumbency": false, "elected": true}
+{"name": "Allan Fung", "state": "Rhode Island", "party": "R", "incumbency": false, "elected": false}
+{"name": "Leon Kayarian", "state": "Rhode Island", "party": "I", "incumbency": false, "elected": false}
+{"name": "Bob Healey", "state": "Rhode Island", "party": "Moderate", "incumbency": false, "elected": false}
+{"name": "Kate Fletcher", "state": "Rhode Island", "party": "I", "incumbency": false, "elected": false}
+{"name": "Tom Ervin", "state": "South Carolina", "party": "I", "incumbency": false, "elected": false}
+{"name": "Steve French", "state": "South Carolina", "party": "L", "incumbency": false, "elected": false}
+{"name": "Morgan Reeves", "state": "South Carolina", "party": "United Citizens", "incumbency": false, "elected": false}
+{"name": "Nikki Haley", "state": "South Carolina", "party": "R", "incumbency": true, "elected": true}
+{"name": "Vincent Sheheen", "state": "South Carolina", "party": "D", "incumbency": false, "elected": false}
+{"name": "Susan Wismer", "state": "South Dakota", "party": "D", "incumbency": false, "elected": false}
+{"name": "Dennis Daugaard", "state": "South Dakota", "party": "R", "incumbency": true, "elected": true}
+{"name": "Mike Myers", "state": "South Dakota", "party": "I", "incumbency": false, "elected": false}
+{"name": "Isa Infante", "state": "Tennessee", "party": "Green", "incumbency": false, "elected": false}
+{"name": "John Jay Hooker", "state": "Tennessee", "party": "I", "incumbency": false, "elected": false}
+{"name": "Shaun Crowell", "state": "Tennessee", "party": "Constitution", "incumbency": false, "elected": false}
+{"name": "Charlie Brown", "state": "Tennessee", "party": "D", "incumbency": false, "elected": false}
+{"name": "Steve Coburn", "state": "Tennessee", "party": "I", "incumbency": false, "elected": false}
+{"name": "Bill Haslam", "state": "Tennessee", "party": "R", "incumbency": true, "elected": true}
+{"name": "Daniel Lewis", "state": "Tennessee", "party": "L", "incumbency": false, "elected": false}
+{"name": "Greg Abbott", "state": "Texas", "party": "R", "incumbency": false, "elected": true}
+{"name": "Kathie Glass", "state": "Texas", "party": "L", "incumbency": false, "elected": false}
+{"name": "Brandon Parmer", "state": "Texas", "party": "Green", "incumbency": false, "elected": false}
+{"name": "Wendy Davis", "state": "Texas", "party": "D", "incumbency": false, "elected": false}
+{"name": "Dan Feliciano", "state": "Vermont", "party": "L", "incumbency": false, "elected": false}
+{"name": "Pete Diamondstone", "state": "Vermont", "party": "Liberty Union", "incumbency": false, "elected": false}
+{"name": "Cris Ericson", "state": "Vermont", "party": "I", "incumbency": false, "elected": false}
+{"name": "Peter Shumlin", "state": "Vermont", "party": "D", "incumbency": true, "elected": true}
+{"name": "Emily Peyton", "state": "Vermont", "party": "I", "incumbency": false, "elected": false}
+{"name": "Bernard Peters", "state": "Vermont", "party": "I", "incumbency": false, "elected": false}
+{"name": "Scott Milne", "state": "Vermont", "party": "R", "incumbency": false, "elected": false}
+{"name": "Robert Burke", "state": "Wisconsin", "party": "L", "incumbency": false, "elected": false}
+{"name": "Mary Burke", "state": "Wisconsin", "party": "D", "incumbency": false, "elected": false}
+{"name": "Scott Walker", "state": "Wisconsin", "party": "R", "incumbency": true, "elected": true}
+{"name": "Don Wills", "state": "Wyoming", "party": "I", "incumbency": false, "elected": false}
+{"name": "Dee Cozzens", "state": "Wyoming", "party": "L", "incumbency": false, "elected": false}
+{"name": "Matt Mead", "state": "Wyoming", "party": "R", "incumbency": true, "elected": true}
+{"name": "Pete Gosar", "state": "Wyoming", "party": "D", "incumbency": false, "elected": false}

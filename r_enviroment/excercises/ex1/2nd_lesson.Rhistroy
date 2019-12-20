@@ -1,0 +1,56 @@
+setwd("./Documents/CAPPP/r_enviroment/")
+ls
+ls()
+library(swirl)
+switch ()
+swirl()
+library(dplyr)
+cran <- tbl_df(mydf)
+rm("mydf")
+cran
+?group_by
+by_package <- group_by(cran, package)
+by_package
+summarize(cran, mean(size))
+summarize(by_package, mean(size))
+pack_sum <- summarize(by_package,
+count = count(ip_id),
+unique = unique(ip_id),
+countries = unique(country),
+avg_bytes = mean(size))
+summarize(by_package, count = count())
+summarize(by_package, count = count(ip_id))
+summarize(by_package, count = n(ip_id))
+summarize(by_package, count = n())
+submit()
+pack_sum
+quantile(pack_sum$count, probs=0.99)
+filter(pack_sum, count > 679)
+top_counts <- filter(pack_sum, count > 679)
+top_counts
+View(top_counts)
+arrange(top_counts, desc(count))
+top_counts_sorted <- arrange(top_counts, desc(count))
+View(top_counts_sorted)
+quantile(pack_sum$unique, probs = 0.99)
+top_unique <- filter(pack_sum, unique > 465)
+View(top_counts)
+View(top_unique)
+top_unique_sorted <- arrange(top_unique, desc(unique))
+View(top_unique_sorted)
+submit()
+submit()
+submit()
+View(result3)
+cran %>%
+select(ip_id, country, package, size) %>%
+print
+submit()
+submit()
+reset()
+swirl()
+submit()
+submit()
+submit()
+submit()
+submit()

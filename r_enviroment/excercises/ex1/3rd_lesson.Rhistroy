@@ -1,0 +1,59 @@
+swirl::swirl()
+library(tidyr)
+students
+?gather
+gather(stuents, sex, count, -grade)
+gather(students, sex, count, -grade)
+students2
+res <- gather(students2, sex_class, count, -grade)
+res
+?seperate
+?separate
+separate(res, sex_class, c("sex", "class"))
+students2
+submit()
+swirl::submit()
+students3
+swirl::submit()
+swirl::submit()
+?spread
+students3 %>%
+gather(class, grade, class1:class5, na.rm = TRUE)
+students3 %>%
+gather(class, grade, class1:class5, na.rm = TRUE)
+students3 %>%
+gather(class, grade, class1:class5, na.rm = TRUE) %>% print
+students3
+students3 %>%
+gather(class, grade, class1:class5, na.rm = TRUE) %>% print
+students3 %>%
+gather(class, grade, class1:class5, na.rm = TRUE) %>% spread(test, test1)
+students3 %>%
+gather(class, grade, class1:class5, na.rm = TRUE) %>% spread(test, grade)
+submit()
+swirl::submit()
+library(reader)
+library(readr)
+parse_number("class5")
+submit*()
+submit()
+swirl::submit()
+submit()
+swirl::submit()
+students4
+swirl::submit()
+swirl::submit()
+swirl::submit()
+swirl::submit()
+swirl::submit()
+passed
+failed
+passed <- mutate(passed, status="passed")
+failed <- mutate(failed, status="failed")
+?bind_rows
+bind_rows(passed, failed)
+sat
+submit()
+swirl::submit()
+?group_by
+swirl::submit()
