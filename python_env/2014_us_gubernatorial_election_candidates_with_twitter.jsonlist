@@ -79,28 +79,28 @@
 {"name": "Mark Elworth", "state": "Nebraska", "party": "L", "incumbency": false, "elected": false, "twitter": ""}
 {"name": "Chuck Hassebrook", "state": "Nebraska", "party": "D", "incumbency": false, "elected": false, "twitter": "Vote4Chuck"}
 {"name": "David VanDerBeek", "state": "Nevada", "party": "Independent American", "incumbency": false, "elected": false, "twitter": "USFamilyMan"}
-{"name": "Robert Goodman", "state": "Nevada", "party": "D", "incumbency": false, "elected": false, "twitter": ""}
+{"name": "Robert Goodman", "state": "Nevada", "party": "D", "incumbency": false, "elected": false, "twitter": "Goodman4Nevada"}
 {"name": "Brian Sandoval", "state": "Nevada", "party": "R", "incumbency": true, "elected": true, "twitter": ""}
-{"name": "Maggie Hassan", "state": "New Hampshire", "party": "D", "incumbency": true, "elected": true, "twitter": ""}
-{"name": "Walt Havenstein", "state": "New Hampshire", "party": "R", "incumbency": false, "elected": false, "twitter": ""}
-{"name": "Gary King", "state": "New Mexico", "party": "D", "incumbency": false, "elected": false, "twitter": ""}
-{"name": "Susana Martinez", "state": "New Mexico", "party": "R", "incumbency": true, "elected": true, "twitter": ""}
-{"name": "Rob Astorino", "state": "New York", "party": "R", "incumbency": false, "elected": false, "twitter": ""}
-{"name": "Andrew Cuomo", "state": "New York", "party": "D", "incumbency": true, "elected": true, "twitter": ""}
-{"name": "Michael McDermott", "state": "New York", "party": "L", "incumbency": false, "elected": false, "twitter": ""}
-{"name": "Howie Hawkins", "state": "New York", "party": "G", "incumbency": false, "elected": false, "twitter": ""}
+{"name": "Maggie Hassan", "state": "New Hampshire", "party": "D", "incumbency": true, "elected": true, "twitter": "SenatorHassan"}
+{"name": "Walt Havenstein", "state": "New Hampshire", "party": "R", "incumbency": false, "elected": false, "twitter": "Walt4NH"}
+{"name": "Gary King", "state": "New Mexico", "party": "D", "incumbency": false, "elected": false, "twitter": "GaryKingforGov"}
+{"name": "Susana Martinez", "state": "New Mexico", "party": "R", "incumbency": true, "elected": true, "twitter": "Gov_Martinez"}
+{"name": "Rob Astorino", "state": "New York", "party": "R", "incumbency": false, "elected": false, "twitter": "RobAstorino"}
+{"name": "Andrew Cuomo", "state": "New York", "party": "D", "incumbency": true, "elected": true, "twitter": "NYGovCuomo"}
+{"name": "Michael McDermott", "state": "New York", "party": "L", "incumbency": false, "elected": false, "twitter": "votemcdermott"}
+{"name": "Howie Hawkins", "state": "New York", "party": "G", "incumbency": false, "elected": false, "twitter": "HowieHawkins"}
 {"name": "Ed FitzGerald", "state": "Ohio", "party": "D", "incumbency": false, "elected": false, "twitter": ""}
-{"name": "John Kasich", "state": "Ohio", "party": "R", "incumbency": true, "elected": true, "twitter": ""}
+{"name": "John Kasich", "state": "Ohio", "party": "R", "incumbency": true, "elected": true, "twitter": "JohnKasich"}
 {"name": "Anita Rios", "state": "Ohio", "party": "G", "incumbency": false, "elected": false, "twitter": ""}
-{"name": "Richard Prawdzienski", "state": "Oklahoma", "party": "L, running as I", "incumbency": false, "elected": false, "twitter": ""}
-{"name": "Mary Fallin", "state": "Oklahoma", "party": "R", "incumbency": true, "elected": true, "twitter": ""}
-{"name": "Joe Dorman", "state": "Oklahoma", "party": "D", "incumbency": false, "elected": false, "twitter": ""}
-{"name": "Dennis Richardson", "state": "Oregon", "party": "R", "incumbency": false, "elected": false, "twitter": ""}
+{"name": "Richard Prawdzienski", "state": "Oklahoma", "party": "L, running as I", "incumbency": false, "elected": false, "twitter": "RPrawdzienski"}
+{"name": "Mary Fallin", "state": "Oklahoma", "party": "R", "incumbency": true, "elected": true, "twitter": "MaryFallin"}
+{"name": "Joe Dorman", "state": "Oklahoma", "party": "D", "incumbency": false, "elected": false, "twitter": "JoeD4OK"}
+{"name": "Dennis Richardson", "state": "Oregon", "party": "R", "incumbency": false, "elected": false, "twitter": "DRichardsonOR"}
 {"name": "Paul Grad", "state": "Oregon", "party": "Libertarian", "incumbency": false, "elected": false, "twitter": ""}
-{"name": "John Kitzhaber", "state": "Oregon", "party": "D", "incumbency": true, "elected": true, "twitter": ""}
+{"name": "John Kitzhaber", "state": "Oregon", "party": "D", "incumbency": true, "elected": true, "twitter": "KitzForGov"}
 {"name": "Aaron Auer", "state": "Oregon", "party": "Constitution", "incumbency": false, "elected": false, "twitter": ""}
-{"name": "Tom Wolf", "state": "Pennsylvania", "party": "D", "incumbency": false, "elected": true, "twitter": ""}
-{"name": "Tom Corbett", "state": "Pennsylvania", "party": "R", "incumbency": true, "elected": false, "twitter": ""}
+{"name": "Tom Wolf", "state": "Pennsylvania", "party": "D", "incumbency": false, "elected": true, "twitter": "TomWolfPA"}
+{"name": "Tom Corbett", "state": "Pennsylvania", "party": "R", "incumbency": true, "elected": false, "twitter": "CorbettforGov"}
 {"name": "Gina Raimondo", "state": "Rhode Island", "party": "D", "incumbency": false, "elected": true, "twitter": ""}
 {"name": "Allan Fung", "state": "Rhode Island", "party": "R", "incumbency": false, "elected": false, "twitter": ""}
 {"name": "Leon Kayarian", "state": "Rhode Island", "party": "I", "incumbency": false, "elected": false, "twitter": ""}
