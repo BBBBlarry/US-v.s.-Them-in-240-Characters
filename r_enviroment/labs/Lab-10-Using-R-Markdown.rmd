@@ -3,9 +3,9 @@ title: "Lab 10 - Using R Markdown"
 author: "Bree Bang-Jensen"
 date: "1/8/2019"
 output:
-  html_document: default
-  word_document: default
   pdf_document: default
+  word_document: default
+  html_document: default
 ---
 
 ## R Markdown Basics
