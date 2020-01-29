@@ -1,0 +1,175 @@
+---
+title: "Lab 11 - Using Predict"
+author: "Bree Bang-Jensen"
+date: "1/15/2019"
+output: html_document
+---
+
+Thank you to Emma Rodman, who in addition to creating many of these labs, supplied the data set and research question for our analysis today and who made much of what we are doing in CAPPP possible. 
+
+Practice setting up a project!
+1) Open a new project in R.
+2) Move this lab and this R_WA_data file into it.
+3) Set the project as your working directory!  One way to do this...go to the setting/gear icon in your bottom right screen and select the ''Set as Working Directory" option from the pull down menu.
+4) See alternative approach below.
+5) See the easy new way to load data below.
+
+```{r setup, message = FALSE, warning = FALSE}
+setwd("~/Desktop/CAPPP/r_enviroment/labs/Lab11_Project/")
+load("R_WA_data.RData")
+library(ggplot2)
+library(dplyr)
+```
+
+##Using Predict
+
+Predict is a base R function that lets you show the substantive impact of your independent variable on your dependent variable. In essence, it produces predicted values of your dependent variable based on your regression model and the values of your independent and control values that you feed it. We are imagining different scenerios and then producing values for our DV in that imagined scenerio.
+
+```{r meme, echo=FALSE, fig.cap="", out.width = '100%'}
+
+# knitr::include_graphics("lab9_imagine.jpg")
+```
+
+The first step in using predict is to create a dataframe that contains the various imagined "cases" of ind./control variables that you want to test. Each row of the dataframe will represent a different case where you want R to predict the value of the dependent variable, given the inputs of the case.
+
+In this example, I ask R to give two predictions of the number of female challenger candidates: one with the binary variable on female incumbency set to 0 for the district, and one with incumbency set to 1 (there is at least one female incumbent). 
+
+```{r bivariate}
+model1 <- lm(DfemChalCanCount ~ DIfemDummy, data = WA_data)
+
+pred1_df <- expand.grid(DIfemDummy = c(0, 1)) #why not other ways of doing this?
+
+pred1 <- predict(model1, newdata = pred1_df, interval = "confidence")
+```
+
+
+```{r bivariate_plot}
+plot1 <- ggplot(bind_cols(pred1_df, as.data.frame(pred1)), 
+                aes(y = DIfemDummy, x = fit, xmin = lwr, xmax = upr)) +
+                geom_point(size = 4.0) +
+                geom_errorbarh() +
+                labs(y = "Female Incumbents in District, Dummy", 
+                     x = "Predicted Female Challenger Candidates") +
+                theme_minimal()
+
+plot1
+```
+
+In this second case, I offer a more complex multivariate model -- including a large number of control variables -- to Predict. I still change the incumbency variable in each of my imagined cases, but I also tell R to hold all the control variables at their mean values (or at 0 in the case of two binary control variables).
+
+```{r multivariate}
+
+model2 <- lm(DfemChalCanCount ~ DIfemDummy + 
+                      wfd_distsize + ideology + wfd_urban + wfd_afam + wfd_hisp +
+                      wfd_forborn + wfd_relincome + wfd_college + wfd_schoolage +
+                      wfd_bcpct_const + rep_pres_vote + open_seat + DsenRace, data = WA_data)
+
+pred2_df <- expand.grid(DIfemDummy = c(0, 1),
+                       wfd_distsize = mean(WA_data$wfd_distsize),
+                       ideology = mean(WA_data$ideology),
+                       wfd_urban = mean(WA_data$wfd_urban),
+                       wfd_afam = mean(WA_data$wfd_afam),
+                       wfd_hisp = mean(WA_data$wfd_hisp),
+                       wfd_forborn = mean(WA_data$wfd_forborn),
+                       wfd_relincome = mean(WA_data$wfd_relincome),
+                       wfd_college = mean(WA_data$wfd_college),
+                       wfd_schoolage = mean(WA_data$wfd_schoolage),
+                       wfd_bcpct_const = mean(WA_data$wfd_bcpct_const),
+                       rep_pres_vote = mean(WA_data$rep_pres_vote),
+                       open_seat = 0,
+                       DsenRace = 0)
+
+pred2 <- predict(model2, newdata = pred2_df, interval = "confidence")
+pred2
+```
+
+Great! This gives us the prediction (here called the "fit", or fitted value) and the 95% confidence interval. In other words, given the details of the cases and the regression model, 95% of the time the value of my dependent variable will fall within that range between the lwr and the upr values.
+
+The important thing here is that we don't want the ranges of these two predictions to overlap. Why not?
+
+Let's plot and see if they do:
+
+```{r multivar_plot}
+plot2 <- ggplot(bind_cols(pred2_df, as.data.frame(pred2)), 
+                aes(y = DIfemDummy, x = fit, xmin = lwr, xmax = upr)) +
+                geom_point(size = 4.0) +
+                geom_errorbarh() +
+                labs(y = "Female Incumbents in District, Dummy", 
+                     x = "Predicted Female Challenger Candidates") +
+                theme_minimal()
+
+plot2
+```
+
+There are many other ways to use predict to generate interesting predictions on your dependent variable. If your independent variables of interest are not binary, you can create a sequence of values on which R will predict. For instance:
+
+```{r multivar_continuous}
+model3 <- lm(DfemChalCanCount ~ DfemIyrsCount +
+               ideology + wfd_distsize + wfd_urban + wfd_afam + wfd_hisp +
+               wfd_forborn + wfd_relincome + wfd_college + wfd_schoolage +
+               wfd_bcpct_const + rep_pres_vote + open_seat + DsenRace, data = WA_data)
+
+pred3_df <- expand.grid(DfemIyrsCount = seq(3, 69, by = 1),
+                       wfd_distsize = mean(WA_data$wfd_distsize),
+                       ideology = mean(WA_data$ideology),
+                       wfd_urban = mean(WA_data$wfd_urban),
+                       wfd_afam = mean(WA_data$wfd_afam),
+                       wfd_hisp = mean(WA_data$wfd_hisp),
+                       wfd_forborn = mean(WA_data$wfd_forborn),
+                       wfd_relincome = mean(WA_data$wfd_relincome),
+                       wfd_college = mean(WA_data$wfd_college),
+                       wfd_schoolage = mean(WA_data$wfd_schoolage),
+                       wfd_bcpct_const = mean(WA_data$wfd_bcpct_const),
+                       rep_pres_vote = mean(WA_data$rep_pres_vote),
+                       open_seat = 0,
+                       DsenRace = 0)
+
+pred3 <- predict(model3, newdata = pred3_df, interval = "confidence")
+pred3
+
+plot3 <- ggplot(bind_cols(pred3_df, as.data.frame(pred3)), 
+                aes(y = DfemIyrsCount, x = fit, xmin = lwr, xmax = upr)) +
+                geom_point() +
+                geom_point(size = .1) +
+                geom_errorbarh() +
+                labs(y = "Years of Past Incumbency", x = "Predicted Female Challenger Candidates") +
+                theme_minimal()
+
+plot3
+```
+
+(Note: we probably would not include this plot -- with this many values -- in a paper.)
+
+Finally, it's important to remember that, in the real world, no district is "at the mean" on every control value. Social scientists like to see what predict spits out for actual real-life cases where you only vary one value (like a value of a single independent variable). In this data set, that means keeping all the values of control variables at the actual real-life values of a given district, and then varying just the presence of a female incumbent. 
+
+```{r case_studies}
+pred4_df <- expand.grid(DIfemDummy = c(0, 1),
+                       wfd_distsize = WA_data$wfd_distsize[1],
+                       ideology = WA_data$ideology[1],
+                       wfd_urban = WA_data$wfd_urban[1],
+                       wfd_afam = WA_data$wfd_afam[1],
+                       wfd_hisp = WA_data$wfd_hisp[1],
+                       wfd_forborn = WA_data$wfd_forborn[1],
+                       wfd_relincome = WA_data$wfd_relincome[1],
+                       wfd_college = WA_data$wfd_college[1],
+                       wfd_schoolage = WA_data$wfd_schoolage[1],
+                       wfd_bcpct_const = WA_data$wfd_bcpct_const[1],
+                       rep_pres_vote = WA_data$rep_pres_vote[1],
+                       open_seat = WA_data$open_seat[1],
+                       DsenRace = WA_data$DsenRace[1])
+
+pred4 <- predict(model2, newdata = pred4_df, interval = "confidence")
+pred4
+
+plot4 <- ggplot(bind_cols(pred4_df, as.data.frame(pred4)), 
+                aes(y = DIfemDummy, x = fit, xmin = lwr, xmax = upr)) +
+                geom_point() +
+                geom_point(size = .1) +
+                geom_errorbarh() +
+                labs(y = "Female Incumbents in District, Dummy", 
+                     x = "Predicted Female Challenger Candidates") +
+                theme_minimal()
+plot4
+```
+
+If we wanted to do this for every single district, we could put our predict code into a for loop that looped across all the districts. Go for-th and conquer!
