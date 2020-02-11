@@ -1,0 +1,141 @@
+{"name": "Robert Bentley", "state": "Alabama", "party": "R", "incumbency": true, "elected": true, "twitter": "GovRBentley", "gender": 1}
+{"name": "Parker Griffith", "state": "Alabama", "party": "D", "incumbency": false, "elected": false, "twitter": "Griffith2014", "gender": 1}
+{"name": "J. R. Myers", "state": "Alaska", "party": "Constitution", "incumbency": false, "elected": false, "twitter": "", "gender": 1}
+{"name": "Bill Walker", "state": "Alaska", "party": "I", "incumbency": false, "elected": true, "twitter": "walkerforakgov", "gender": 1}
+{"name": "Carolyn Clift", "state": "Alaska", "party": "L", "incumbency": false, "elected": false, "twitter": "MsLibertarian", "gender": 0}
+{"name": "Sean Parnell", "state": "Alaska", "party": "R", "incumbency": true, "elected": false, "twitter": "SeanParnellAK", "gender": 1}
+{"name": "Doug Ducey", "state": "Arizona", "party": "R", "incumbency": false, "elected": true, "twitter": "dougducey", "gender": 1}
+{"name": "John Mealer", "state": "Arizona", "party": "Americans Elect", "incumbency": false, "elected": false, "twitter": "", "gender": 1}
+{"name": "Barry Hess", "state": "Arizona", "party": "L", "incumbency": false, "elected": false, "twitter": "hess4governor", "gender": 1}
+{"name": "Fred DuVal", "state": "Arizona", "party": "D", "incumbency": false, "elected": false, "twitter": "FredDuVal", "gender": 1}
+{"name": "Asa Hutchinson", "state": "Arkansas", "party": "R", "incumbency": false, "elected": true, "twitter": "AsaHutchinson", "gender": 1}
+{"name": "Frank Gilbert", "state": "Arkansas", "party": "L", "incumbency": false, "elected": false, "twitter": "Gilbert4LtGov", "gender": 1}
+{"name": "Mike Ross", "state": "Arkansas", "party": "D", "incumbency": false, "elected": false, "twitter": "MikeRossUpdates", "gender": 1}
+{"name": "Josh Drake", "state": "Arkansas", "party": "Green", "incumbency": false, "elected": false, "twitter": "", "gender": 1}
+{"name": "Jerry Brown", "state": "California", "party": "D", "incumbency": true, "elected": true, "twitter": "JerryBrownGov", "gender": 1}
+{"name": "Neel Kashkari", "state": "California", "party": "R", "incumbency": false, "elected": false, "twitter": "neelkashkari", "gender": 1}
+{"name": "Harry Hempy", "state": "Colorado", "party": "Green", "incumbency": false, "elected": false, "twitter": "", "gender": 1}
+{"name": "John Hickenlooper", "state": "Colorado", "party": "D", "incumbency": true, "elected": true, "twitter": "Hickenlooper", "gender": 1}
+{"name": "Matthew Hess", "state": "Colorado", "party": "L", "incumbency": false, "elected": false, "twitter": "", "gender": 1}
+{"name": "Mike Dunafon", "state": "Colorado", "party": "I", "incumbency": false, "elected": false, "twitter": "Dunafon4Gov", "gender": 1}
+{"name": "Bob Beauprez", "state": "Colorado", "party": "R", "incumbency": false, "elected": false, "twitter": "bobbeauprez", "gender": 1}
+{"name": "Paul Fiorino", "state": "Colorado", "party": "I", "incumbency": false, "elected": false, "twitter": "", "gender": 1}
+{"name": "Jim Rundberg", "state": "Colorado", "party": "I", "incumbency": false, "elected": false, "twitter": "JimRundberg", "gender": 1}
+{"name": "Joe Visconti", "state": "Connecticut", "party": "I", "incumbency": false, "elected": false, "twitter": "JoeVisconti", "gender": 1}
+{"name": "Tom Foley", "state": "Connecticut", "party": "R", "incumbency": false, "elected": false, "twitter": "TomFoleyCT", "gender": 1}
+{"name": "Lee Whitnum", "state": "Connecticut", "party": "I", "incumbency": false, "elected": false, "twitter": "Lee_Whitnum", "gender": 0}
+{"name": "Dan Malloy", "state": "Connecticut", "party": "D", "incumbency": true, "elected": true, "twitter": "DanMalloyCT", "gender": 1}
+{"name": "Glenn Burkett", "state": "Florida", "party": "No Party Affiliation", "incumbency": false, "elected": false, "twitter": "GlennBurkett4FL", "gender": 1}
+{"name": "Rick Scott", "state": "Florida", "party": "R", "incumbency": true, "elected": true, "twitter": "ScottforFlorida", "gender": 1}
+{"name": "Farid Khavari", "state": "Florida", "party": "No Party Affiliation", "incumbency": false, "elected": false, "twitter": "Farid_Khavari", "gender": 1}
+{"name": "Charlie Crist", "state": "Florida", "party": "D", "incumbency": false, "elected": false, "twitter": "CharlieCrist", "gender": 1}
+{"name": "Joe Allen", "state": "Florida", "party": "No Party Affiliation", "incumbency": false, "elected": false, "twitter": "", "gender": 1}
+{"name": "Adrian Wyllie", "state": "Florida", "party": "L", "incumbency": false, "elected": false, "twitter": "WyllieForGov", "gender": 1}
+{"name": "Andrew Hunt", "state": "Georgia", "party": "L", "incumbency": false, "elected": false, "twitter": "AndrewHuntGA", "gender": 1}
+{"name": "Jason Carter", "state": "Georgia", "party": "D", "incumbency": false, "elected": false, "twitter": "carter4governor", "gender": 1}
+{"name": "Nathan Deal", "state": "Georgia", "party": "R", "incumbency": true, "elected": true, "twitter": "NathanDeal", "gender": 1}
+{"name": "Duke Aiona", "state": "Hawaii", "party": "R", "incumbency": false, "elected": false, "twitter": "DukeAiona2014", "gender": 1}
+{"name": "Jeff Davis", "state": "Hawaii", "party": "L", "incumbency": false, "elected": false, "twitter": "", "gender": 1}
+{"name": "David Ige", "state": "Hawaii", "party": "D", "incumbency": false, "elected": true, "twitter": "HI_ige", "gender": 1}
+{"name": "Mufi Hannemann", "state": "Hawaii", "party": "Hawaii Independent", "incumbency": false, "elected": false, "twitter": "", "gender": 1}
+{"name": "A.J. Balukoff", "state": "Idaho", "party": "D", "incumbency": false, "elected": false, "twitter": "", "gender": 1}
+{"name": "Pro-Life (Marvin Richardson)", "state": "Idaho", "party": "I", "incumbency": false, "elected": false, "twitter": "", "gender": 1}
+{"name": "Butch Otter", "state": "Idaho", "party": "R", "incumbency": true, "elected": true, "twitter": "ButchOtter", "gender": 1}
+{"name": "John Bujak", "state": "Idaho", "party": "L", "incumbency": false, "elected": false, "twitter": "", "gender": 1}
+{"name": "Jill Humble", "state": "Idaho", "party": "I", "incumbency": false, "elected": false, "twitter": "Humble_Jill", "gender": 0}
+{"name": "Steve Pankey", "state": "Idaho", "party": "Constitution", "incumbency": false, "elected": false, "twitter": "PankeyforIdaho", "gender": 1}
+{"name": "Bruce Rauner", "state": "Illinois", "party": "R", "incumbency": false, "elected": true, "twitter": "", "gender": 1}
+{"name": "Chad Grimm", "state": "Illinois", "party": "L", "incumbency": false, "elected": false, "twitter": "", "gender": 1}
+{"name": "Pat Quinn", "state": "Illinois", "party": "D", "incumbency": true, "elected": false, "twitter": "GovernorQuinn", "gender": 1}
+{"name": "David Rosenfeld", "state": "Iowa", "party": "Socialist Workers", "incumbency": false, "elected": false, "twitter": "", "gender": 1}
+{"name": "Jack Hatch", "state": "Iowa", "party": "D", "incumbency": false, "elected": false, "twitter": "Senator_Hatch", "gender": 1}
+{"name": "Terry Branstad", "state": "Iowa", "party": "R", "incumbency": true, "elected": true, "twitter": "TerryBranstad", "gender": 1}
+{"name": "Lee Hieb", "state": "Iowa", "party": "L", "incumbency": false, "elected": false, "twitter": "", "gender": 0}
+{"name": "Paul Davis", "state": "Kansas", "party": "D", "incumbency": false, "elected": false, "twitter": "", "gender": 1}
+{"name": "Keen Umbehr", "state": "Kansas", "party": "L", "incumbency": false, "elected": false, "twitter": "KeenForKansas", "gender": 1}
+{"name": "Sam Brownback", "state": "Kansas", "party": "R", "incumbency": true, "elected": true, "twitter": "", "gender": 1}
+{"name": "Eliot Cutler", "state": "Maine", "party": "Unenrolled", "incumbency": false, "elected": false, "twitter": "", "gender": 1}
+{"name": "Mike Michaud", "state": "Maine", "party": "D", "incumbency": false, "elected": false, "twitter": "MikeHMichaud", "gender": 1}
+{"name": "Paul LePage", "state": "Maine", "party": "R", "incumbency": true, "elected": true, "twitter": "Governor_LePage", "gender": 1}
+{"name": "Larry Hogan", "state": "Maryland", "party": "R", "incumbency": false, "elected": true, "twitter": "LarryHogan", "gender": 1}
+{"name": "Shawn Quinn", "state": "Maryland", "party": "L", "incumbency": false, "elected": false, "twitter": "", "gender": 1}
+{"name": "Anthony Brown", "state": "Maryland", "party": "D", "incumbency": false, "elected": false, "twitter": "", "gender": 1}
+{"name": "Scott Lively", "state": "Massachusetts", "party": "I", "incumbency": false, "elected": false, "twitter": "", "gender": 1}
+{"name": "Jeff McCormick", "state": "Massachusetts", "party": "I", "incumbency": false, "elected": false, "twitter": "", "gender": 1}
+{"name": "Martha Coakley", "state": "Massachusetts", "party": "D", "incumbency": false, "elected": false, "twitter": "marthacoakley", "gender": 0}
+{"name": "Evan Falchuk", "state": "Massachusetts", "party": "United Independent", "incumbency": false, "elected": false, "twitter": "efalchuk", "gender": 1}
+{"name": "Charlie Baker", "state": "Massachusetts", "party": "R", "incumbency": false, "elected": true, "twitter": "CharlieBakerMA", "gender": 1}
+{"name": "Paul Homeniuk", "state": "Michigan", "party": "G", "incumbency": false, "elected": false, "twitter": "", "gender": 1}
+{"name": "Rick Snyder", "state": "Michigan", "party": "R", "incumbency": true, "elected": true, "twitter": "onetoughnerd", "gender": 1}
+{"name": "Mark Schauer", "state": "Michigan", "party": "D", "incumbency": false, "elected": false, "twitter": "MarkSchauer", "gender": 1}
+{"name": "Robin Sanders", "state": "Michigan", "party": "I", "incumbency": false, "elected": false, "twitter": "", "gender": 1}
+{"name": "Mary Buzuma", "state": "Michigan", "party": "L", "incumbency": false, "elected": false, "twitter": "", "gender": 0}
+{"name": "Jeff Johnson", "state": "Minnesota", "party": "R", "incumbency": false, "elected": false, "twitter": "MNJeffJohnson", "gender": 1}
+{"name": "Chris Wright", "state": "Minnesota", "party": "Grass Roots", "incumbency": false, "elected": false, "twitter": "", "gender": 1}
+{"name": "Chris Holbrook", "state": "Minnesota", "party": "L", "incumbency": false, "elected": false, "twitter": "", "gender": 1}
+{"name": "Mark Dayton", "state": "Minnesota", "party": "DFL", "incumbency": true, "elected": true, "twitter": "GovMarkDayton", "gender": 1}
+{"name": "Hannah Nicollet", "state": "Minnesota", "party": "Independence", "incumbency": false, "elected": false, "twitter": "", "gender": 0}
+{"name": "Pete Ricketts", "state": "Nebraska", "party": "R", "incumbency": false, "elected": true, "twitter": "RickettsForGov", "gender": 1}
+{"name": "Mark Elworth", "state": "Nebraska", "party": "L", "incumbency": false, "elected": false, "twitter": "", "gender": 1}
+{"name": "Chuck Hassebrook", "state": "Nebraska", "party": "D", "incumbency": false, "elected": false, "twitter": "Vote4Chuck", "gender": 1}
+{"name": "David VanDerBeek", "state": "Nevada", "party": "Independent American", "incumbency": false, "elected": false, "twitter": "USFamilyMan", "gender": 1}
+{"name": "Robert Goodman", "state": "Nevada", "party": "D", "incumbency": false, "elected": false, "twitter": "Goodman4Nevada", "gender": 1}
+{"name": "Brian Sandoval", "state": "Nevada", "party": "R", "incumbency": true, "elected": true, "twitter": "", "gender": 1}
+{"name": "Maggie Hassan", "state": "New Hampshire", "party": "D", "incumbency": true, "elected": true, "twitter": "SenatorHassan", "gender": 0}
+{"name": "Walt Havenstein", "state": "New Hampshire", "party": "R", "incumbency": false, "elected": false, "twitter": "Walt4NH", "gender": 1}
+{"name": "Gary King", "state": "New Mexico", "party": "D", "incumbency": false, "elected": false, "twitter": "GaryKingforGov", "gender": 1}
+{"name": "Susana Martinez", "state": "New Mexico", "party": "R", "incumbency": true, "elected": true, "twitter": "Gov_Martinez", "gender": 0}
+{"name": "Rob Astorino", "state": "New York", "party": "R", "incumbency": false, "elected": false, "twitter": "RobAstorino", "gender": 1}
+{"name": "Andrew Cuomo", "state": "New York", "party": "D", "incumbency": true, "elected": true, "twitter": "NYGovCuomo", "gender": 1}
+{"name": "Michael McDermott", "state": "New York", "party": "L", "incumbency": false, "elected": false, "twitter": "votemcdermott", "gender": 1}
+{"name": "Howie Hawkins", "state": "New York", "party": "G", "incumbency": false, "elected": false, "twitter": "HowieHawkins", "gender": 1}
+{"name": "Ed FitzGerald", "state": "Ohio", "party": "D", "incumbency": false, "elected": false, "twitter": "", "gender": 1}
+{"name": "John Kasich", "state": "Ohio", "party": "R", "incumbency": true, "elected": true, "twitter": "JohnKasich", "gender": 1}
+{"name": "Anita Rios", "state": "Ohio", "party": "G", "incumbency": false, "elected": false, "twitter": "", "gender": 1}
+{"name": "Richard Prawdzienski", "state": "Oklahoma", "party": "L, running as I", "incumbency": false, "elected": false, "twitter": "RPrawdzienski", "gender": 1}
+{"name": "Mary Fallin", "state": "Oklahoma", "party": "R", "incumbency": true, "elected": true, "twitter": "MaryFallin", "gender": 0}
+{"name": "Joe Dorman", "state": "Oklahoma", "party": "D", "incumbency": false, "elected": false, "twitter": "JoeD4OK", "gender": 1}
+{"name": "Dennis Richardson", "state": "Oregon", "party": "R", "incumbency": false, "elected": false, "twitter": "DRichardsonOR", "gender": 1}
+{"name": "Paul Grad", "state": "Oregon", "party": "Libertarian", "incumbency": false, "elected": false, "twitter": "", "gender": 1}
+{"name": "John Kitzhaber", "state": "Oregon", "party": "D", "incumbency": true, "elected": true, "twitter": "KitzForGov", "gender": 1}
+{"name": "Aaron Auer", "state": "Oregon", "party": "Constitution", "incumbency": false, "elected": false, "twitter": "", "gender": 1}
+{"name": "Tom Wolf", "state": "Pennsylvania", "party": "D", "incumbency": false, "elected": true, "twitter": "TomWolfPA", "gender": 1}
+{"name": "Tom Corbett", "state": "Pennsylvania", "party": "R", "incumbency": true, "elected": false, "twitter": "CorbettforGov", "gender": 1}
+{"name": "Gina Raimondo", "state": "Rhode Island", "party": "D", "incumbency": false, "elected": true, "twitter": "GinaRaimondo", "gender": 0}
+{"name": "Allan Fung", "state": "Rhode Island", "party": "R", "incumbency": false, "elected": false, "twitter": "AllanFungRI", "gender": 1}
+{"name": "Leon Kayarian", "state": "Rhode Island", "party": "I", "incumbency": false, "elected": false, "twitter": "", "gender": 1}
+{"name": "Bob Healey", "state": "Rhode Island", "party": "Moderate", "incumbency": false, "elected": false, "twitter": "roberthealey", "gender": 1}
+{"name": "Kate Fletcher", "state": "Rhode Island", "party": "I", "incumbency": false, "elected": false, "twitter": "", "gender": 0}
+{"name": "Tom Ervin", "state": "South Carolina", "party": "I", "incumbency": false, "elected": false, "twitter": "", "gender": 1}
+{"name": "Steve French", "state": "South Carolina", "party": "L", "incumbency": false, "elected": false, "twitter": "french4freedom", "gender": 1}
+{"name": "Morgan Reeves", "state": "South Carolina", "party": "United Citizens", "incumbency": false, "elected": false, "twitter": "", "gender": 1}
+{"name": "Nikki Haley", "state": "South Carolina", "party": "R", "incumbency": true, "elected": true, "twitter": "AmbNikkiHaley", "gender": 0}
+{"name": "Vincent Sheheen", "state": "South Carolina", "party": "D", "incumbency": false, "elected": false, "twitter": "vincentsheheen", "gender": 1}
+{"name": "Susan Wismer", "state": "South Dakota", "party": "D", "incumbency": false, "elected": false, "twitter": "SusanForSD", "gender": 0}
+{"name": "Dennis Daugaard", "state": "South Dakota", "party": "R", "incumbency": true, "elected": true, "twitter": "SDGovDaugaard", "gender": 1}
+{"name": "Mike Myers", "state": "South Dakota", "party": "I", "incumbency": false, "elected": false, "twitter": "", "gender": 1}
+{"name": "Isa Infante", "state": "Tennessee", "party": "Green", "incumbency": false, "elected": false, "twitter": "IsaInfante4gov", "gender": 0}
+{"name": "John Jay Hooker", "state": "Tennessee", "party": "I", "incumbency": false, "elected": false, "twitter": "", "gender": 1}
+{"name": "Shaun Crowell", "state": "Tennessee", "party": "Constitution", "incumbency": false, "elected": false, "twitter": "DrShaunCrowell", "gender": 1}
+{"name": "Charlie Brown", "state": "Tennessee", "party": "D", "incumbency": false, "elected": false, "twitter": "", "gender": 1}
+{"name": "Steve Coburn", "state": "Tennessee", "party": "I", "incumbency": false, "elected": false, "twitter": "", "gender": 1}
+{"name": "Bill Haslam", "state": "Tennessee", "party": "R", "incumbency": true, "elected": true, "twitter": "BillHaslam", "gender": 1}
+{"name": "Daniel Lewis", "state": "Tennessee", "party": "L", "incumbency": false, "elected": false, "twitter": "", "gender": 1}
+{"name": "Greg Abbott", "state": "Texas", "party": "R", "incumbency": false, "elected": true, "twitter": "GregAbbott_TX", "gender": 1}
+{"name": "Kathie Glass", "state": "Texas", "party": "L", "incumbency": false, "elected": false, "twitter": "KathieGlass4Tx", "gender": 0}
+{"name": "Brandon Parmer", "state": "Texas", "party": "Green", "incumbency": false, "elected": false, "twitter": "", "gender": 1}
+{"name": "Wendy Davis", "state": "Texas", "party": "D", "incumbency": false, "elected": false, "twitter": "wendydavis", "gender": 0}
+{"name": "Dan Feliciano", "state": "Vermont", "party": "L", "incumbency": false, "elected": false, "twitter": "DanFeliciano", "gender": 1}
+{"name": "Pete Diamondstone", "state": "Vermont", "party": "Liberty Union", "incumbency": false, "elected": false, "twitter": "", "gender": 1}
+{"name": "Cris Ericson", "state": "Vermont", "party": "I", "incumbency": false, "elected": false, "twitter": "", "gender": 1}
+{"name": "Peter Shumlin", "state": "Vermont", "party": "D", "incumbency": true, "elected": true, "twitter": "petershumlin", "gender": 1}
+{"name": "Emily Peyton", "state": "Vermont", "party": "I", "incumbency": false, "elected": false, "twitter": "", "gender": 0}
+{"name": "Bernard Peters", "state": "Vermont", "party": "I", "incumbency": false, "elected": false, "twitter": "", "gender": 1}
+{"name": "Scott Milne", "state": "Vermont", "party": "R", "incumbency": false, "elected": false, "twitter": "MilneForVT", "gender": 1}
+{"name": "Robert Burke", "state": "Wisconsin", "party": "L", "incumbency": false, "elected": false, "twitter": "BurkeWIGov", "gender": 1}
+{"name": "Mary Burke", "state": "Wisconsin", "party": "D", "incumbency": false, "elected": false, "twitter": "maryburke_01", "gender": 1}
+{"name": "Scott Walker", "state": "Wisconsin", "party": "R", "incumbency": true, "elected": true, "twitter": "ScottWalker", "gender": 1}
+{"name": "Don Wills", "state": "Wyoming", "party": "I", "incumbency": false, "elected": false, "twitter": "", "gender": 1}
+{"name": "Dee Cozzens", "state": "Wyoming", "party": "L", "incumbency": false, "elected": false, "twitter": "", "gender": 1}
+{"name": "Matt Mead", "state": "Wyoming", "party": "R", "incumbency": true, "elected": true, "twitter": "MeadforGovernor", "gender": 1}
+{"name": "Pete Gosar", "state": "Wyoming", "party": "D", "incumbency": false, "elected": false, "twitter": "gosar4gov", "gender": 1}
