@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6ac9e1e-17e6-42de-9451-1898fd6365b0" name="Default Changelist" comment="" />
+    <list default="true" id="b6ac9e1e-17e6-42de-9451-1898fd6365b0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Independent Variables.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Independent Variables.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tweet Automatic Coding Pipeline.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Tweet Automatic Coding Pipeline.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tweet Coding Quality Analysis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Tweet Coding Quality Analysis.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/all_attack_tweet_texts.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/all_attack_tweet_texts_doc_topics.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/all_attack_tweet_texts_topic_keys.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/all_attack_tweet_texts_topic_keys_coding_init.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/all_tweets_with_coding.json" beforeDir="false" afterPath="$PROJECT_DIR$/all_tweets_with_coding.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/all_attack_tweet_texts_topic_keys_coding.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/all_attack_tweet_texts_topic_keys_coding.numbers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/all_tweets_with_coding.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/all_tweets_with_coding.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/sample_validation.numbers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/sample_validation/Actions-Table 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/sample_validation/Coding-sample_validation_init.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/sample_validation/Sheet 1-Table 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/sample_validation/Stats-Accuracy.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/sample_validation/Stats-Precision, Recall &amp; F1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/state_mass_pol.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/state_mass_pol.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample_validation_init.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sample_validation_init.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/token_coding.csv" beforeDir="false" afterPath="$PROJECT_DIR$/token_coding.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/token_coding.numbers" beforeDir="false" afterPath="$PROJECT_DIR$/token_coding.numbers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r_enviroment/labs/Lab11_Project/.Rhistory" beforeDir="false" afterPath="$PROJECT_DIR$/../r_enviroment/labs/Lab11_Project/.Rhistory" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +42,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/library/pywikibot" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1TaInvKdIogPxV2VHMIEuTxPTUO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -133,6 +158,8 @@
       <workItem from="1574368701999" duration="4597000" />
       <workItem from="1574379728809" duration="6278000" />
       <workItem from="1576739147640" duration="5441000" />
+      <workItem from="1581980413363" duration="12000" />
+      <workItem from="1584239220521" duration="268000" />
     </task>
     <servers />
   </component>
