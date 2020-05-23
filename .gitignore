@@ -1,6 +1,12 @@
-# Data files
-data/funding
+# credential
+code/python/credentials/*
 
+# data protected by licenses
+data/tweets/all_tweets_with_*
+data/final_dataset.csv
+data/polarization/processed_data/*
+data/polarization/raw_data/Pew/*
+data/polarization/raw_data/Pew/Shor & McCarty/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
