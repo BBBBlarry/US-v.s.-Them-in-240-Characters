@@ -5,13 +5,18 @@ code/python/credentials/*
 data/tweets/all_tweets_with_*
 data/final_dataset.csv
 data/polarization/processed_data/*
-data/polarization/raw_data/Pew/*
-data/polarization/raw_data/Pew/Shor & McCarty/*
+data/polarization/raw_data/*
+data/demographics/*
+data/validation/sample_validation*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
+
+# non essentials
+.idea
+.DS_Store
 
 # C extensions
 *.so
