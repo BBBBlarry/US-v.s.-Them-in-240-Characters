@@ -17,6 +17,7 @@ __pycache__/
 # non essentials
 .idea/
 .DS_Store
+.icloud
 
 # C extensions
 *.so
