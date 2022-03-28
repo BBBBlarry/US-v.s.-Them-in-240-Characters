@@ -15,6 +15,8 @@ library(ggplot2)
 library(dplyr)
 library(lindia) # install.packages, if needed
 library(lsr) # for easy correlation
+library(gridExtra)
+library(stargazer)
 ```
 
 # Loading Data
@@ -167,15 +169,16 @@ relevent_set %>%
   theme(plot.title = element_text(hjust = 0.5))
 dev.off()
 
-png("../../figures/Effect of Elite Polarization Measure on PTVI Given Race Competitiveness.png",
+png("../../figures/Effect of Elite Polarization Measure on PTVI Given Controls.png",
     units="in", 
     width=10, 
     height=8, 
     pointsize=12, 
     res=72)
-relevent_set %>%
+
+p1 <- relevent_set %>%
   ggplot(aes(x=total_dist, y=vicousness, color=competitiveness)) + geom_point() + geom_smooth(method = "lm") + 
-  ggtitle("Effect of Elite Polarization Measure on PTVI Given Race Competitiveness") + 
+  ggtitle("Effect of Elite Polarization Measure on PTVI \nGiven Race Competitiveness") + 
   xlab("Legislature Ideology Distance") + 
   ylab("PTVI") + 
   scale_color_discrete(name="Competitiveness",
@@ -183,17 +186,11 @@ relevent_set %>%
                          labels=c("Competitive", "Not Competitive")) +
   theme_minimal() + 
   theme(plot.title = element_text(hjust = 0.5))
-dev.off()
 
-png("../../figures/Effect of Elite Polarization Measure on PTVI Given Candidate Incumbency.png",
-    units="in", 
-    width=10, 
-    height=8, 
-    pointsize=12, 
-    res=72)
-relevent_set %>%
+
+p2 <- relevent_set %>%
   ggplot(aes(x=total_dist, y=vicousness, color=incumbency)) + geom_point() + geom_smooth(method = "lm") + 
-  ggtitle("Effect of Elite Polarization Measure on PTVI Given Candidate Incumbency") + 
+  ggtitle("Effect of Elite Polarization Measure on PTVI \nGiven Candidate Incumbency") + 
   xlab("Legislature Ideology Distance") + 
   ylab("PTVI") + 
   scale_color_discrete(name="Incumbency",
@@ -201,17 +198,11 @@ relevent_set %>%
                          labels=c("Non-Incumbent", "Incumbent")) +
   theme_minimal() + 
   theme(plot.title = element_text(hjust = 0.5))
-dev.off()
 
-png("../../figures/Effect of Elite Polarization Measure on PTVI Given Candidate Party.png",
-    units="in", 
-    width=10, 
-    height=8, 
-    pointsize=12, 
-    res=72)
-relevent_set %>%
+
+p3 <- relevent_set %>%
   ggplot(aes(x=total_dist, y=vicousness, color=party)) + geom_point() + geom_smooth(method = "lm") + 
-  ggtitle("Effect of Elite Polarization Measure on PTVI Given Candidate Party") + 
+  ggtitle("Effect of Elite Polarization Measure on PTVI \nGiven Candidate Party") + 
   xlab("Legislature Ideology Distance") + 
   ylab("PTVI") + 
   scale_color_discrete(name="Party",
@@ -219,17 +210,11 @@ relevent_set %>%
                          labels=c("Republican", "Democratic")) +
   theme_minimal() + 
   theme(plot.title = element_text(hjust = 0.5))
-dev.off()
 
-png("../../figures/Effect of Elite Polarization Measure on PTVI Given Candidate Gender.png",
-    units="in", 
-    width=10, 
-    height=8, 
-    pointsize=12, 
-    res=72)
-relevent_set %>%
+
+p4 <- relevent_set %>%
   ggplot(aes(x=total_dist, y=vicousness, color=gender)) + geom_point() + geom_smooth(method = "lm") + 
-  ggtitle("Effect of Elite Polarization Measure on PTVI Given Candidate Gender") + 
+  ggtitle("Effect of Elite Polarization Measure on PTVI \nGiven Candidate Gender") + 
   xlab("Legislature Ideology Distance") + 
   ylab("PTVI") + 
   scale_color_discrete(name="Gender",
@@ -237,6 +222,9 @@ relevent_set %>%
                          labels=c("Female", "Male")) +
   theme_minimal() + 
   theme(plot.title = element_text(hjust = 0.5))
+
+grid.arrange(p1, p2, p3, p4, nrow=2)
+
 dev.off()
 ```
 
@@ -257,15 +245,15 @@ relevent_set %>%
   theme(plot.title = element_text(hjust = 0.5))
 dev.off()
 
-png("../../figures/Effect of Mass Polarization Measure on Given Race Competitiveness",
+png("../../figures/Effect of Mass Polarization Measure on PTVI Given Controls.png",
     units="in", 
     width=10, 
     height=8, 
     pointsize=12, 
     res=72)
-relevent_set %>%
+p1 <- relevent_set %>%
   ggplot(aes(x=ideoConsist, y=vicousness, color=competitiveness)) + geom_point() + geom_smooth(method = "lm") + 
-  ggtitle("Effect of Mass Polarization Measure on Given Race Competitiveness") + 
+  ggtitle("Effect of Mass Polarization Measure on PTVI \nGiven Race Competitiveness") + 
   xlab("Public Partisan Distance") + 
   ylab("PTVI") + 
   scale_color_discrete(name="Competitiveness",
@@ -273,17 +261,11 @@ relevent_set %>%
                          labels=c("Competitive", "Not Competitive")) +
   theme_minimal() + 
   theme(plot.title = element_text(hjust = 0.5))
-dev.off()
 
-png("../../figures/Effect of Mass Polarization Measure on PTVI Given Candidate Incumbency",
-    units="in", 
-    width=10, 
-    height=8, 
-    pointsize=12, 
-    res=72)
-relevent_set %>%
+
+p2 <- relevent_set %>%
   ggplot(aes(x=ideoConsist, y=vicousness, color=incumbency)) + geom_point() + geom_smooth(method = "lm") + 
-  ggtitle("Effect of Mass Polarization Measure on PTVI Given Candidate Incumbency") + 
+  ggtitle("Effect of Mass Polarization Measure on PTVI \nGiven Candidate Incumbency") + 
   xlab("Public Partisan Distance") + 
   ylab("PTVI") + 
   scale_color_discrete(name="Incumbency",
@@ -291,17 +273,11 @@ relevent_set %>%
                          labels=c("Non-Incumbent", "Incumbent")) +
   theme_minimal() + 
   theme(plot.title = element_text(hjust = 0.5))
-dev.off()
 
-png("../../figures/Effect of Mass Polarization Measure on PTVI Given Candidate Party",
-    units="in", 
-    width=10, 
-    height=8, 
-    pointsize=12, 
-    res=72)
-relevent_set %>%
+
+p3 <- relevent_set %>%
   ggplot(aes(x=ideoConsist, y=vicousness, color=party)) + geom_point() + geom_smooth(method = "lm") + 
-  ggtitle("Effect of Mass Polarization Measure on PTVI Given Candidate Party") + 
+  ggtitle("Effect of Mass Polarization Measure on PTVI \nGiven Candidate Party") + 
   xlab("Public Partisan Distance") + 
   ylab("PTVI") + 
   scale_color_discrete(name="Party",
@@ -309,17 +285,11 @@ relevent_set %>%
                          labels=c("Republican", "Democratic")) +
   theme_minimal() + 
   theme(plot.title = element_text(hjust = 0.5))
-dev.off()
 
-png("../../figures/Effect of Mass Polarization Measure on PTVI Given Candidate Gender",
-    units="in", 
-    width=10, 
-    height=8, 
-    pointsize=12, 
-    res=72)
-relevent_set %>%
+
+p4 <- relevent_set %>%
   ggplot(aes(x=ideoConsist, y=vicousness, color=gender)) + geom_point() + geom_smooth(method = "lm") + 
-  ggtitle("Effect of Mass Polarization Measure on PTVI Given Candidate Gender") + 
+  ggtitle("Effect of Mass Polarization Measure on PTVI \nGiven Candidate Gender") + 
   xlab("Public Partisan Distance") + 
   ylab("PTVI") + 
   scale_color_discrete(name="Gender",
@@ -327,6 +297,8 @@ relevent_set %>%
                          labels=c("Female", "Male")) +
   theme_minimal() + 
   theme(plot.title = element_text(hjust = 0.5))
+
+grid.arrange(p1, p2, p3, p4, nrow=2)
 dev.off()
 ```
 
@@ -400,8 +372,8 @@ correlate(as.data.frame(correlations))
 ## Political Tweet Viciousness Index (PTVI)
 ### Model 1: Mass
 ```{r}
-model_at_idvar <- lm(attack_per ~ ideoConsist * incumbency * party * competitiveness, data = relevent_set)
-model_v_idvar <- lm(vicousness ~ ideoConsist * incumbency * party * competitiveness, data = relevent_set)
+model_at_idvar <- lm(attack_per ~ ideoConsist * incumbency * party * competitiveness + gender, data = relevent_set)
+model_v_idvar <- lm(vicousness ~ ideoConsist * incumbency * party * competitiveness + gender, data = relevent_set)
 ```
 
 ```{r}
@@ -413,12 +385,12 @@ summary(model_v_idvar)
 
 ### Model 2: Elite
 ```{r}
-model_at_hdist <- lm(attack_per ~ h_dist * incumbency * party + competitiveness, data = relevent_set)
-model_v_hdist <- lm(vicousness ~ h_dist * incumbency * party + competitiveness, data = relevent_set)
-model_at_sdist <- lm(attack_per ~ s_dist * incumbency * party + competitiveness, data = relevent_set)
-model_v_sdist <- lm(vicousness ~ s_dist * incumbency * party + competitiveness + party, data = relevent_set)
-model_at_tdist <- lm(attack_per ~ total_dist * incumbency * party + competitiveness, data = relevent_set)
-model_v_tdist <- lm(vicousness ~ total_dist * incumbency * party + competitiveness, data = relevent_set)
+model_at_hdist <- lm(attack_per ~ h_dist * incumbency * party + competitiveness + gender, data = relevent_set)
+model_v_hdist <- lm(vicousness ~ h_dist * incumbency * party + competitiveness + gender, data = relevent_set)
+model_at_sdist <- lm(attack_per ~ s_dist * incumbency * party + competitiveness + gender, data = relevent_set)
+model_v_sdist <- lm(vicousness ~ s_dist * incumbency * party + competitiveness + gender, data = relevent_set)
+model_at_tdist <- lm(attack_per ~ total_dist * incumbency * party + competitiveness + gender, data = relevent_set)
+model_v_tdist <- lm(vicousness ~ total_dist * incumbency * party + competitiveness + gender, data = relevent_set)
 ```
 
 ```{r}
@@ -436,52 +408,48 @@ print("PTVI & Total Ideology Distance")
 summary(model_v_tdist)
 ```
 
-
-## Affects
-Disgust: 
-- strong positive association with h_dist & s_dist
-- slight positive association with ideoConsistVariance
-- slight negative associartion with competitiveness0
-
-Anger: 
-- strong positive association with h_dist & s_dist
-
-Negative:
-- slight positive association with h_dist & s_dist
-
-Fear:
-- slight positive association with s_dist
-
-Anticipation: 
-- slight negative association with h_dist & s_dist
-
-Positive:
-- strong positive association with incumbency1
-
-Surprise:
-- slight positive association with incumbency1
-
-Joy: 
-- none
-
-Trust: 
-- none
-
-Sadness:
-- none
+# Tables
 
 ```{r}
-summary(lm(anger ~ h_dist + gender + incumbency + competitiveness + party + follower_count + total_tweet_count, data = relevent_set))
-summary(lm(anger ~ s_dist + gender + incumbency + competitiveness + party + follower_count + total_tweet_count, data = relevent_set))
-summary(lm(anger ~ ideoConsist + gender + incumbency + competitiveness + party + follower_count + total_tweet_count, data = relevent_set))
+stargazer(model_at_tdist,model_v_tdist,
+          title = "Top-Down Models",
+          dep.var.labels = c("Attack Rate", "PTVI"),
+          covariate.labels=c(
+            "Legislature Ideological Distances (Elite Polarization)",
+            "Incumbency",
+            "Member of the Democratic Party",
+            "Race is Non-Competitive",
+            "Gender is Female",
+            "Legislature Ideological Distance * Incumbency",
+            "Legislature Ideological Distances * Member of the Democratic Party",
+            "Incumbency * Member of the Democratic Party",
+            "Legislature Ideological Distances * Incumbency * Member of the Democratic Party"),
+          type = "latex", align = TRUE, no.space = TRUE)
 ```
 
 ```{r}
-summary(lm(vicousness ~ ideoConsist * incumbency + party + competitiveness, data = relevent_set))
-AIC(lm(vicousness ~ ideoConsist * incumbency + party + competitiveness, data = relevent_set), k = 2)
+stargazer(model_at_idvar,model_v_idvar,
+          title = "Bottom-Up Models",
+          dep.var.labels = c("Attack Rate", "PTVI"),
+          covariate.labels=c(
+            "Public Partisan Distance (Mass Polarization)",
+            "Incumbency",
+            "Member of the Democratic Party",
+            "Race is Non-Competitive",
+            "Gender is Female",
+            "Public Partisan Distance * Incumbency",
+            "Public Partisan Distance * Member of the Democratic Party",
+            "Incumbency * Member of the Democratic Party",
+            "Public Partisan Distance * Member of the Democratic Party",
+            "Incumbency * Race is Non-Competitive",
+            "Member of the Democratic Party * Race is Non-Competitive",
+            "Public Partisan Distance * Incumbency * Member of the Democratic Party",
+            "Public Partisan Distance * Incumbency * Race is Non-Competitive",
+            "Public Partisan Distance * Member of the Democratic Party * Race is Non-Competitive",
+            "Incumbency * Member of the Democratic Party * Race is Non-Competitive",
+            "Public Partisan Distance * Incumbency * Member of the Democratic Party * Race is Non-Competitive"),
+          type = "latex", align = TRUE, no.space = TRUE)
 ```
-
-
 
 
 
